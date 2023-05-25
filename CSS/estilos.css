@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* HEADER */
+header{
+    position: sticky;
+    top:0;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvhhIdn0h4D6Y29dLHSO2-3FM0ZC82vLmNg&usqp=CAU);
+}
+.nav__container{
+    background-color: rgb(255,255,255);
+}
+.nav{
+    flex-grow: 0.05;
+}
+.nav__enlase:hover{
+    background-color: rgba(255, 128, 0, 0.6);
+    height: 45px;
+    border-radius: 30px;
+    }
+.peligro:hover{
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 45px;
+    border-radius: 30px;
+}
+/* Body Inicio */
+.img__inicio{
+    width: 100%;
+    height: 520px;
+}
+.titulo{
+    display: grid;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    margin:20px auto ;
+}
+.noticias__container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.noticias__container a{
+    text-decoration: none;
+    color: black;
+}
+.noticias{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(241, 241, 241,0.8);
+    padding: 20px;
+    display: block;
+    margin: 10px 200px;
+    text-align: center;
+}
+.img__noticias{
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+}
+.texto__noticias{
+    display: inline;
+}
+
+/* Footer */
+footer{
+    background-color: #f1f1f1;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__container svg{
+    text-decoration: none;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 60px;
+    text-align: center;
+    background-color:white;
+    color:rgb(92, 90, 90);
+    border-radius: 70%;
+    box-shadow: 2px 2px 5px rgba(12, 12, 12, 0.5);
+}
+.boton__facebook:hover{
+    color: blue;
+    background-color: white;
+}
+.boton__ig:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(31deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 56%, rgba(252,247,69,1) 94%);
+    color: white;
+}
+.boton__wp:hover{
+    background-color: rgb(10, 235, 10);
+    color: white;
+}
+.boton__google:hover{
+    background-color: white;
+    color: red;
+}
+/* Sobre Nosotros */
+.carta{
+    display: flex;
+    align-items: center;
+    background-image: url(../IMG/perro-y-gato-amigos-9_44d53344_230307211742_1280x800.jpg);
+    background-position: center;
+    width: 62%;
+    height: 400px;
+    margin: 50px auto; 
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.carta__body{
+    background: rgba(12, 12, 12, 0.3);
+    width: 100%;
+    height: 100%;
+    color:antiquewhite;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 30px;
+    display: inline;
+}
+/* Sobre Nosotros -- Colavoradores */
+.colavo__container{
+    background-color: rgba(12, 12, 12 , 0.8);
+    border-radius: 150px;
+    height: 300px;
+    width: 62%;
+    display: flex;
+    text-align: center;
+    padding: 30px 30px;
+    justify-content: space-around;
+    margin: 10px auto; 
+    color: #f1f1f1;
+}
+.colavo__container img{
+    border-radius: 100%;
+    background-color: rgba(145, 238, 145, 0.3) ;
+    width: 200px;
+    height: 200px;
+}
+.nosotros__video{
+    background-color: rgba(12, 12, 12 , 0.8);
+    border-radius: 50px;
+    color: #f1f1f1;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px auto;
+    width: 62%;
+}
+/* FORMULARIO */
+.formulario{
+    background-color: rgba(12, 12, 12 , 0.9);
+    color: #f1f1f1;
+    margin: 90px auto;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    box-shadow: 6px 6px 60px 6px rgba(12, 12, 12, 0.5);
+    text-align: center;
+    padding: 2rem 2rem ;
+    border-radius: 10px;
+}
+.formulario__titulo{
+    font-size: 2rem;
+    margin-bottom: 0.5px;
+}
+.formulario__container{
+    margin-top: 3em;
+    display: grid;
+    gap: .5em;
+}
+.formulario__input{
+    position: static;
+}
+.formulario__radio{
+    display: flex;
+    justify-content:space-around;
+}
+.input{
+    width: 100%;
+    background: none;
+    color: #f1f1f1;
+    font-size: 1rem;
+    padding: 0.6 0.3;
+}
+.boton__formulario__enviar{
+    background-color: rgba(145, 238, 145, 0.8) ;
+    border-radius: 150px;
+}
+.boton__formulario{
+    background-color: rgba(255, 128, 0, 0.8);
+    border-radius: 150px;
+}
+.boton__formulario__enviar:hover{
+    height: 50px;
+    background-color:rgba(32, 240, 5, 0.8) ;
+    font-size: 30px;
+    font-weight: 1000px;
+}
+.formulario__check{
+    display: flex;
+    justify-content: center;
+    
+}
+/* PELUDOS */
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    
+    margin: 50px auto 50px auto;
+    max-width: 600px;
+    height: 100%
+}
+.texto__perro{
+    color: rgb(250, 246, 246);
+    background-color: rgba(12, 12, 12 , 0.8);
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    background-color: rgba(12, 12, 12 , 0.8);
+    color: #f1f1f1;
+    height: 90%;
+}
+
+
+
+@media screen and (max-width:400px){
+    .colavo__container img{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (max-width:600px){
+    .noticias{
+        margin: 10px;
+    }
+    .img__inicio{
+        display: none;
+    }
+    .img__noticias{       
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:760px){
+    .carta{
+        background-image: none;
+        display: grid;
+        margin: 10px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    .carta__body{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .colavo__container{
+        flex-direction: column;
+        margin: auto;
+        height: 100%;
+        padding: auto;
+    }
+}
+@media (max-width:900px){
+    .img__noticias{
+        display: inline-block;
+    }
+    .noticias{
+        margin: 10px 100px 10px 100px;
+    }
+} 
