@@ -1,0 +1,75 @@
+@use "index";
+@use "adopcion";
+@use "donaciones";
+@use "padrinos";
+@use "peludos";
+@use "sobreNosotros";
+@use "assets/footer";
+@use "assets/header";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvhhIdn0h4D6Y29dLHSO2-3FM0ZC82vLmNg&usqp=CAU);
+}
+
+@media screen and (max-width:400px){
+    .colavo__container img{
+        height: 100px;
+        width: 100px;
+    }
+    .noticias{
+
+        margin: 5px, 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .noticias{
+        width: 100%;
+        height: 100%;
+        margin: 10px, 20px;
+    }
+    .img__inicio{
+        display: none;
+    }
+    .img__noticias{       
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (max-width:760px){
+    .carta{
+        background-image: none;
+        display: grid;
+        margin: 10px 0px;
+        width: 100%;
+        height: 100%;
+        .carta__body{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+    .carta__body{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .colavo__container{
+        flex-direction: column;
+        margin: auto;
+        height: 100%;
+        padding: auto;
+    }
+}
+@media screen and (max-width:900px){
+    .img__noticias{
+        display: inline-block;
+    }
+    .noticias{
+        margin: 10px 100px 10px 100px;
+    }
+} 

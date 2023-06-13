@@ -1,0 +1,50 @@
+.carta{
+    display: flex;
+    align-items: center;
+    background-image: url(../IMG/perro-y-gato-amigos-9_44d53344_230307211742_1280x800.jpg);
+    background-position: center;
+    width: 62%;
+    height: 400px;
+    margin: 50px auto; 
+    padding: 10px;
+    border-radius: 30px;
+    .carta__body{
+        background: rgba(12, 12, 12, 0.3);
+        width: 100%;
+        height: 100%;
+        color:antiquewhite;
+        padding: 30px;
+        margin: 5px;
+        border-radius: 30px;
+        display: inline;
+    }
+}
+.colavo__container{
+    background-color: rgba(12, 12, 12 , 0.8);
+    border-radius: 150px;
+    height: 300px;
+    width: 62%;
+    display: flex;
+    text-align: center;
+    padding: 30px 30px;
+    justify-content: space-around;
+    margin: 10px auto; 
+    color: #f1f1f1;
+    img{
+        border-radius: 100%;
+        background-color: rgba(145, 238, 145, 0.3) ;
+        width: 200px;
+        height: 200px;
+    }
+}
+.nosotros__video{
+    background-color: rgba(12, 12, 12 , 0.8);
+    border-radius: 50px;
+    color: #f1f1f1;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px auto;
+    width: 62%;
+}

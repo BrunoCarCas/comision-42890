@@ -1,0 +1,42 @@
+footer{
+    background-color: #f1f1f1;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    svg{
+        text-decoration: none;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        line-height: 60px;
+        text-align: center;
+        background-color:white;
+        color:rgb(92, 90, 90);
+        border-radius: 70%;
+        box-shadow: 2px 2px 5px rgba(12, 12, 12, 0.5);
+    }
+    .boton__facebook:hover{
+        color: blue;
+        background-color: white;
+    }
+    .boton__ig:hover{
+        background: rgb(131,58,180);
+        background: linear-gradient(31deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 56%, rgba(252,247,69,1) 94%);
+        color: white;
+    }
+    .boton__wp:hover{
+        background-color: rgb(10, 235, 10);
+        color: white;
+    }
+    .boton__google:hover{
+        background-color: white;
+        color: red;
+    }
+}
